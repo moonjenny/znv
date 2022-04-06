@@ -1,0 +1,292 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>ZEN &amp; VENTURES html guide</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link type="text/css" rel="stylesheet" href="com/guide.css" />
+<script type="text/javascript" src="com/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="com/guide.js"></script>
+</head>
+<body>
+<div id="wrap"> 
+	<!-- header s -->
+	<div id="header">
+		<h1>ZEN &amp; VENTURES</h1>
+		<ul class="gnb">
+			<li><a href="list.html" class="on">Front List</a></li>
+			<!-- <li><a href="guide01.html" >Guide</a></li> -->
+			<!-- <li><a href="download.html">Guide Download</a></li>-->
+		</ul>
+	</div>
+	<!--// header e --> 
+
+	<!-- container s -->
+	<div id="container">
+		<h2 class="h2_tit">기본정의</h2>
+		<div class="conbox">
+			<ul>
+				<li>최소해상도 960기준이 100% 풀브라우징으로 적용됨 : [width:100%; max-width:1920px;] 기준임</li>
+				<li>기준브라우저는 IE8. 크로스브라우징의 범위 : IE8-10, 구글크롬</li>
+				<li>[주의]공동작업임으로 서버에서 파일이 덮여쓰여지지 않도록 주의할것. 반드시 로컬에 백업할것</li>
+			</ul>
+		</div>
+		<h2 class="h2_tit">프론트 리스트<span class="process">진행현황안내 : <span class="txt_ok">빨강-완료일/검수일</span>, <span class="txt_ing">파랑-진행중</span>, <span class="txt_mod">검정-수정일</span></span></h2>
+		<div id="g_content">
+			<table id="focus" class="mlist">
+				<colgroup>
+				<col width="5%" />
+				<col width="13%" />
+				<col width="13%" />
+				<col width="13%" />
+				<col width="13%" />
+				<col width="13%" />
+				<col width="5%" />
+				<col width="*" />
+				<col width="7%" />
+				</colgroup>
+				<thead>
+					<tr>
+						<th class="first">NUM</th>
+						<th>1Depth</th>
+						<th>2Depth</th>
+						<th>3Depth</th>
+						<th>4Depth</th>
+						<th>5Depth</th>
+						<th>구분</th>
+						<th>DATE</th>
+						<th>LINK</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr onmousedown="toggleed(this)">
+					  <th>&nbsp;</th>
+					  <th rowspan="2" class="itemtit01">공통</th>
+					  <td class="itemtit02">메인</td>
+					  <td class="itemtit03">&nbsp;</td>
+					  <td class="itemtit04">&nbsp;</td>
+					  <td class="itemtit05">&nbsp;</td>
+					  <td>&nbsp;</td>
+					  <td><span class="txt_ok">2015-05-15</span></td>
+					  <td class="alC"><a href="../html/000_common/common_main.html" target="_blank" class="btn_go">페이지 열기</a></td>
+				  </tr>
+				  <tr onmousedown="toggleed(this)">
+					  <th>&nbsp;</th>
+					  <td class="itemtit02">LNB</td>
+					  <td class="itemtit03">&nbsp;</td>
+					  <td class="itemtit04">&nbsp;</td>
+					  <td class="itemtit05">&nbsp;</td>
+					  <td>&nbsp;</td>
+					  <td><span class="txt_ok">2015-05-15</span></td>
+					  <td class="alC"><a href="../html/000_common/common_lnb.html" target="_blank" class="btn_go">페이지 열기</a></td>
+				  </tr>
+				    <tr>
+						<td colspan="11" class="borB"> </td>
+					</tr>
+				  	<tr onmousedown="toggleed(this)">
+					  <th>&nbsp;</th>
+					  <th rowspan="5" class="itemtit01">About</th>
+					  <td rowspan="" class="itemtit02">일반현황</td>
+					  <td class="itemtit03">&nbsp;</td>
+					  <td class="itemtit04">&nbsp;</td>
+					  <td class="itemtit05">&nbsp;</td>
+					  <td>&nbsp;</td>
+					  <td><span class="txt_ok">2015-05-15</span></td>
+					  <td class="alC"><a href="../html/001_about/about_01.html" target="_blank" class="btn_go">페이지 열기</a></td>
+				  	</tr>
+				  	<tr onmousedown="toggleed(this)">
+					  <th>&nbsp;</th>
+					  <td rowspan="" class="itemtit02">기업철학</td>
+					  <td class="itemtit03">&nbsp;</td>
+					  <td class="itemtit04">&nbsp;</td>
+					  <td class="itemtit05">&nbsp;</td>
+					  <td>&nbsp;</td>
+					  <td><span class="txt_ok">2015-05-15</span></td>
+					  <td class="alC"><a href="../html/001_about/about_02.html" target="_blank" class="btn_go">페이지 열기</a></td>
+				  	</tr>
+				  	<tr onmousedown="toggleed(this)">
+					  <th>&nbsp;</th>
+					  <td rowspan="" class="itemtit02">비전</td>
+					  <td class="itemtit03">&nbsp;</td>
+					  <td class="itemtit04">&nbsp;</td>
+					  <td class="itemtit05">&nbsp;</td>
+					  <td>&nbsp;</td>
+					  <td><span class="txt_ok">2015-05-15</span></td>
+					  <td class="alC"><a href="../html/001_about/about_03.html" target="_blank" class="btn_go">페이지 열기</a></td>
+				  	</tr>
+				  	<tr onmousedown="toggleed(this)">
+					  <th>&nbsp;</th>
+					  <td rowspan="" class="itemtit02">연혁 및 수상내역</td>
+					  <td class="itemtit03">&nbsp;</td>
+					  <td class="itemtit04">&nbsp;</td>
+					  <td class="itemtit05">&nbsp;</td>
+					  <td>&nbsp;</td>
+					  <td><span class="txt_ok">2015-05-15</span></td>
+					  <td class="alC"><a href="../html/001_about/about_04.html" target="_blank" class="btn_go">페이지 열기</a></td>
+				  	</tr>
+				  	<tr onmousedown="toggleed(this)">
+					  <th>&nbsp;</th>
+					  <td rowspan="" class="itemtit02">CI 소개</td>
+					  <td class="itemtit03">&nbsp;</td>
+					  <td class="itemtit04">&nbsp;</td>
+					  <td class="itemtit05">&nbsp;</td>
+					  <td>&nbsp;</td>
+					  <td><span class="txt_ok">2015-05-15</span></td>
+					  <td class="alC"><a href="../html/001_about/about_05.html" target="_blank" class="btn_go">페이지 열기</a></td>
+				  	</tr>
+					<tr>
+						<td colspan="9" class="borB"> </td>
+					</tr>
+				  	<tr onmousedown="toggleed(this)">
+					  <th>&nbsp;</th>
+					  <th rowspan="3" class="itemtit01">Business</th>
+					  <td rowspan="" class="itemtit02">IT</td>
+					  <td class="itemtit03">&nbsp;</td>
+					  <td class="itemtit04">&nbsp;</td>
+					  <td class="itemtit05">&nbsp;</td>
+					  <td>&nbsp;</td>
+					  <td><span class="txt_ok">2015-05-15</span></td>
+					  <td class="alC"><a href="../html/002_business/business_01.html" target="_blank" class="btn_go">페이지 열기</a></td>
+				  	</tr>
+				  	<tr onmousedown="toggleed(this)">
+					  <th>&nbsp;</th>
+					  <td rowspan="" class="itemtit02">Outdoor &amp; sports</td>
+					  <td class="itemtit03">&nbsp;</td>
+					  <td class="itemtit04">&nbsp;</td>
+					  <td class="itemtit05">&nbsp;</td>
+					  <td>&nbsp;</td>
+					  <td><span class="txt_ok">2015-05-15</span></td>
+					  <td class="alC"><a href="../html/002_business/business_02.html" target="_blank" class="btn_go">페이지 열기</a></td>
+				  	</tr>
+				  	<tr onmousedown="toggleed(this)">
+					  <th>&nbsp;</th>
+					  <td rowspan="" class="itemtit02">Entertainment</td>
+					  <td class="itemtit03">&nbsp;</td>
+					  <td class="itemtit04">&nbsp;</td>
+					  <td class="itemtit05">&nbsp;</td>
+					  <td>&nbsp;</td>
+					  <td><span class="txt_ok">2015-05-15</span></td>
+					  <td class="alC"><a href="../html/002_business/business_03.html" target="_blank" class="btn_go">페이지 열기</a></td>
+				  	</tr>
+					<tr>
+						<td colspan="9" class="borB"> </td>
+					</tr>
+				  	<tr onmousedown="toggleed(this)">
+					  <th>&nbsp;</th>
+					  <th rowspan="" class="itemtit01">PR Room</th>
+					  <td rowspan="" class="itemtit02">Company Brief</td>
+					  <td class="itemtit03">&nbsp;</td>
+					  <td class="itemtit04">&nbsp;</td>
+					  <td class="itemtit05">&nbsp;</td>
+					  <td>&nbsp;</td>
+					  <td><span class="txt_ok">2015-05-15</span></td>
+					  <td class="alC"><a href="../html/003_pr/pr_01.html" target="_blank" class="btn_go">페이지 열기</a></td>
+				  	</tr>
+					<tr>
+						<td colspan="9" class="borB"> </td>
+					</tr>
+				  	<tr onmousedown="toggleed(this)">
+					  <th>&nbsp;</th>
+					  <th rowspan="3" class="itemtit01">Contact us</th>
+					  <td rowspan="" class="itemtit02">Seoul</td>
+					  <td class="itemtit03">&nbsp;</td>
+					  <td class="itemtit04">&nbsp;</td>
+					  <td class="itemtit05">&nbsp;</td>
+					  <td>&nbsp;</td>
+					  <td><span class="txt_ok">2015-05-15</span></td>
+					  <td class="alC"><a href="../html/004_contact/contact_seoul.html" target="_blank" class="btn_go">페이지 열기</a></td>
+				  	</tr>
+				  	<tr onmousedown="toggleed(this)">
+					  <th>&nbsp;</th>
+					  <td rowspan="" class="itemtit02">Tokyo</td>
+					  <td class="itemtit03">&nbsp;</td>
+					  <td class="itemtit04">&nbsp;</td>
+					  <td class="itemtit05">&nbsp;</td>
+					  <td>&nbsp;</td>
+					  <td><span class="txt_ok">2015-05-15</span></td>
+					  <td class="alC"><a href="../html/004_contact/contact_tokyo.html" target="_blank" class="btn_go">페이지 열기</a></td>
+				  	</tr>
+				  	<tr onmousedown="toggleed(this)">
+					  <th>&nbsp;</th>
+					  <td rowspan="" class="itemtit02">Shanghai</td>
+					  <td class="itemtit03">&nbsp;</td>
+					  <td class="itemtit04">&nbsp;</td>
+					  <td class="itemtit05">&nbsp;</td>
+					  <td>&nbsp;</td>
+					  <td><span class="txt_ok">2015-05-15</span></td>
+					  <td class="alC"><a href="../html/004_contact/contact_shanghai.html" target="_blank" class="btn_go">페이지 열기</a></td>
+				  	</tr>
+					<tr>
+						<td colspan="9" class="borB"> </td>
+					</tr>
+				</tbody>
+			</table>
+<script type="text/javascript">$(document).ready(function() {$('#focus').tableHover();});</script> 
+			<script type="text/javascript">
+				var st1 = new SortableTable(document.getElementById("focus"), ["Number" ,"String","String", "String", "String", "String"]);
+				$(function(){
+					var tds = $("#focus tbody  th:first-child");
+					for(var i=0; i < tds.length; i++) {
+						$(tds[i]).html(i+1);
+					}
+				});
+				$('#focus thead th').click(function(){
+					//alert("a");
+					var tds = $("#focus tbody  th:first-child");
+					for(var i=0; i < tds.length; i++) {
+						//alert(tds[i].firstChild.nodeValue);
+						$(tds[i]).html(i+1);
+					}
+				});
+			</script>
+			<script type="text/javascript">
+				<!--
+				function toggleed(trEle){
+					//alert(trEle.parentElement.rows)
+					var rows = trEle.parentElement.rows;
+
+					for(i = 0; i < rows.length; i++){
+						if(rows[i] == trEle){
+							trEle.style.backgroundColor = "#ffebeb"
+						}else{
+							rows[i].style.backgroundColor = ""
+						}
+					}
+				}
+				//-->
+			</script> 
+			<script type="text/javascript">
+				
+				// popup
+				 function openPopup(url, winName, pwidth, pheight, scrollYN, resizeYN) {
+				 var win = null;
+
+				 var winL = (screen.width-pwidth)/2;
+				 var winT = (screen.height-pheight)/2;
+				 var spec = 'toolbar=no,'; 
+				 spec += 'status=no,'; 
+				 spec += 'location=yes,'; 
+				 spec += 'height='+pheight+','; 
+				 spec += 'width='+pwidth+','; 
+				 spec += 'top='+winT+','; 
+				 spec += 'left='+winL+','; 
+				 spec += 'scrollbars='+(scrollYN == undefined ? "no" : scrollYN)+','; 
+				 spec += 'resizable='+(resizeYN == undefined ? "no" : resizeYN);
+				 win = window.open(url, winName, spec);
+				 if(parseInt(navigator.appVersion) >= 4) {
+				  win.window.focus();
+				 }
+			 }
+			</script>
+		</div>
+	</div>
+	<!--// container e -->
+	<div id="footer">
+		Copyright ⓒ UZEN PlanA Multimedia Group. All Right Reserved
+	</div>
+	<p class="btn_top"><a href="#top"><img src="img/btn_gotop.gif" alt="TOP" /></a></p>
+</div>
+</body>
+</html>

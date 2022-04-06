@@ -1,0 +1,152 @@
+
+/*
+ *  ZEN & VENTURES
+ *  Moon Yuen Hee(Jenny)
+ *  2015.05.15
+ */
+
+#container {margin:0 0 0 320px; background: url(../../img/common/bg_lnb.png) no-repeat;}
+.content {position:relative; width:840px; min-height:1000px; padding:60px 60px 0; background:#fff;}
+.content h3 {margin:15px 0 0; font-size:26px; color:#333; font-weight:bold; font-family:'Raleway-Bold', 'NanumBarunGothic';}
+.content h4 {margin:7px 0 0; font-size:14px; color:#333; line-height:24px;}
+.content h4.point {margin:17px 0 0; font-size:17px; font-weight:bold; font-family:'Raleway-Bold';}  
+
+/* .top */
+.top {position:absolute; bottom:0; right:-50px;}
+
+/* tit_box */
+.tit_box {position:relative; font-family: 'NanumBarunGothic';}
+.tit_box h2 {font-size:40px; color:#2a2a2a; font-family: 'Raleway-Bold', 'NanumBarunGothic'}
+.tit_box .eng {font-weight:bold; font-family: 'Raleway-Thin';}
+.tit_box .location {position:absolute; top:0; right:0; font-size:14px; color:#666; font-weight:bold; font-family: 'Raleway-Thin', 'NanumBarunGothic'}
+.tit_box .location strong {color:#000;}
+.tit_box .sub_tit {margin:45px 0 0; font-size:16px; color:#666; line-height:25px;}
+
+/* list_line3 */
+.list_line3 {margin:45px 0 0 0; font-family: 'NanumBarunGothic';}
+.list_line3 ul {overflow: hidden;}
+.list_line3 ul > li {float:left; width:250px; margin-left:45px; border-top:1px solid #333;}
+.list_line3 ul > li:first-child {margin-left:0;}
+.list_line3 ul > li p {font-size:14px; color:#666; line-height:24px; font-family: 'NanumBarunGothic';}
+.list_line3 ul > li .partner {margin:20px 0 0 0; padding:20px 0 0 0; border-top:1px dotted #666;}
+.list_line3 ul > li .partner dt {margin-bottom:12px; font-size:16px; color:#333; font-family: 'NanumBarunGothic';}
+.list_line3 ul > li .partner dd {padding:0 0 0 10px; font-size:14px; color:#666; line-height:24px; font-family: 'NanumBarunGothic'; background:url(../../img/about/ico_partner.gif) left center no-repeat;}
+.list_line3 ul > li .partner dt.hide {display:none;}
+.list_line3 ul > li > ol {margin-left:15px;} 
+.list_line3 ul > li ol li {list-style-type:disc; color:#666; font-size:14px; line-height:24px; font-family: 'NanumBarunGothic';}
+.list_line3 .sec_box {overflow:hidden;}
+.list_line3 .sec_l {float:left; width:240px; margin:0 50px 0 0;}
+.list_line3 .sec_r {float:left; width:255px;}
+
+/* tbl_t1 */
+.tbl_t1 {padding:0 0 60px; border-bottom:1px dotted #ccc;}
+.tbl_t1 h3 {margin:0 0 15px; color:#333; font-size:24px; font-family: 'Raleway-Bold', 'NanumBarunGothic'}
+.tbl_t1 th {padding:20px 0; background:#eee; font-size:15px; border:1px solid #ccc; text-align:center; font-family: 'NanumBarunGothicBold';}
+.tbl_t1 td {padding:20px; border:1px solid #ccc; font-size:14px; color:#666; font-family: 'NanumBarunGothic';}
+.tbl_t1 .bor_ln {border-left:none;}
+.tbl_t1 .bor_rn {border-right:none;}
+.tbl_t1 dl {line-height:24px;}
+.tbl_t1 dl dt {}
+.tbl_t1 dl dd {padding:0 0 0 10px; background:url(../../img/about/ico_partner.gif) left center no-repeat;}
+
+/* .global */
+.content .global {padding:40px 0 0 0;}
+.content .global .sub_tit2 {margin:15px 0 0; font-size:14px; color:#666; line-height:24px;}
+.content .global .map {padding:20px 0 60px;}
+
+/* tbl_history */
+.tbl_history {padding:0 0 120px; margin:52px 0 0; border-top:1px solid #333;}
+.tbl_history table {border-bottom:1px solid #333;}
+.tbl_history th, .tbl_history td {padding:30px 0; border-bottom:1px dotted #ccc; font-size:14px; color:#666; vertical-align:middle; text-align:left; font-family: 'NanumBarunGothic';}
+.tbl_history .last {border:none;}
+.tbl_history td {}
+.tbl_history ul {line-height:24px;}
+.tbl_history ul li {padding:0 0 0 10px; background:url(../../img/about/ico_partner.gif) left center no-repeat;}
+
+/* line */
+.line {width:100%; height:1px; background:#dedede;}
+
+/* it */
+.content .it_img {}
+.content .it_img li {width:100%; height:278px; margin: 0 0 30px;}
+.content .it_img li .txt_box {width:320px; padding:38px 50px;}
+.content .it_img li .txt_box p {padding:18px 0 0; font-size:14px; color:#333; line-height:24px; font-family: 'NanumBarunGothic'}
+.content .it_img li.i1 { background:url(../../img/business/it_img1.jpg) no-repeat;}
+.content .it_img li.i2 { background:url(../../img/business/it_img2.jpg) no-repeat;}
+.content .it_img li.i3 { background:url(../../img/business/it_img3.jpg) no-repeat;}
+.content .it_img li.i4 { background:url(../../img/business/it_img4.jpg) no-repeat;}
+
+.content .it_img2 li {width:100%; height:647px; padding: 0 0 50px;}
+.content .it_img2 li .txt_box {width:320px; padding:38px 50px;}
+.content .it_img2 li .txt_box p {padding:18px 0 0; font-size:14px; color:#333; line-height:24px; font-family: 'NanumBarunGothic'}
+.content .it_img2 li.o1 { background:url(../../img/business/outdoor_img1.jpg) no-repeat;}
+.content .it_img2 li.o2 { background:url(../../img/business/outdoor_img2.jpg) no-repeat;}
+.content .it_img2 .brand {}
+.content .it_img2 .brand dl {overflow:hidden;}
+.content .it_img2 .brand dt {float:left; width:145px;}
+.content .it_img2 .brand dd {float:left; margin: 0 0 0 15px; padding:0 0 0 7px; background:url(../../img/business/ico_dot.png) left center no-repeat;}
+.content .it_img2 .brand dd a {padding:0 10px 0 0; font-size:12px; color:#333;}
+.content .it_img2 .brand dd a:hover,.content .it_img2 .brand dd a:focus {text-decoration:underline; color:#000; font-weight:bold; background:url(../../img/business/ico_over.png) right 6px no-repeat;}
+
+.content .brand .zerogram {height:18px; line-height:18px;}
+.content .brand .zerogram dt {height:18px; background:url(../../img/business/ico_brand.png) no-repeat;}
+.content .brand .campingbox {height:22px; line-height:22px;}
+.content .brand .campingbox dt {height:22px; background:url(../../img/business/ico_brand.png) no-repeat; background-position: 0 -18px;}
+.content .brand .barrel {height:18px; line-height:18px;}
+.content .brand .barrel dt {height:18px; background:url(../../img/business/ico_brand.png) no-repeat; background-position: 0 -40px;}
+.content .brand .badass {height:36px; line-height:36px;}
+.content .brand .badass dt {height:36px; background:url(../../img/business/ico_brand.png) no-repeat; background-position: 0 -58px;}
+.content .brand .purplecow {height:20px; line-height:20px;}
+.content .brand .purplecow dt {height:20px; background:url(../../img/business/ico_brand.png) no-repeat; background-position: 0 -94px;}
+.content .brand .driftwood {height:32px; line-height:32px;}
+.content .brand .driftwood dt {height:32px; background:url(../../img/business/ico_brand.png) no-repeat; background-position: 0 -114px;}
+
+.content .it_img3 li {width:100%; height:647px; padding: 0 0 50px;}
+.content .it_img3 li .txt_box {width:320px; padding:38px 50px;}
+.content .it_img3 li .txt_box p {padding:127px 0 0; font-size:14px; color:#333; line-height:24px; font-family: 'NanumBarunGothic'}
+.content .it_img3 li.e1 { background:url(../../img/business/enter_img1.jpg) no-repeat;}
+.content .it_img3 li.e2 { background:url(../../img/business/enter_img2.jpg) no-repeat;}
+
+.content .brand .zen {overflow:hidden;}
+.content .brand .zen dt {display:none;}
+.content .brand .zen dd {float:left; margin: 0 15px 0 0; padding:0 0 0 7px; background:url(../../img/business/ico_dot.png) left center no-repeat;}
+.content .brand .zen dd a {padding:0 10px 0 0; font-size:12px; color:#333;}
+.content .brand .zen dd a:hover,.content .brand .zen dd a:focus {text-decoration:underline; color:#000; font-weight:bold; /*background:url(../../img/business/ico_over.png) right 6px no-repeat;*/}
+
+/* btn */
+.btn {}
+.btn a {display:inline-block; zoom:1;}
+.btn .btn_ty1 {width:165px; min-width:165px; height:40px; line-height:40px; font-size:14px; font-weight:bold; font-family: 'NanumBarunGothicBold'}
+.btn .org {background:#e36824; color:#fff;}
+
+/* pr-room */
+.pr-room {}
+.pr-room:after {display:block; clear:both; content:'';}
+.pr-room section {float:left; width:400px; border-top:1px solid #333; border-bottom:1px solid #333;}
+.pr-room section:first-child {margin: 0 40px 0 0;}
+.pr-room section dt {height:275px; text-align:center;}
+.pr-room section dt span {display:block; margin:60px auto; width:156px; height:156px; background:url(../../img/pr/ico_pr.png) no-repeat;}
+.pr-room section dt span.company {}
+.pr-room section dt span.brand {background-position: 0 -156px;}
+.pr-room section dd {padding:17px 0 16px; border-top:1px dotted #ccc;}
+.pr-room section dd:after {display:block; clear:both; content:'';}
+.pr-room section dd .tit {float:left; width:172px; padding-left:8px; font-size:16px; color:#666; background:url(../../img/about/ico_partner.gif) left center no-repeat;}
+.pr-room section dd .lang {position:relative; float:left; width:120px; height:24px; margin-left:14px;}
+.pr-room section dd .lang .t1 {display:block; padding:0 0 0 10px; font-size:12px; color:#2a2a2a; height:22px; line-height:22px; border-bottom:1px solid #e5e5e5; cursor:pointer; border: 1px solid #e5e5e5;background:#fff url(../../img/pr/ico_down.gif) 103px 10px no-repeat;}
+.pr-room section dd .lang ul {display:none; position:absolute; top:0; left:0; width:118px; border:1px solid #e5e5e5; border-bottom:none; background:#fff url(../../img/pr/ico_up.gif) 103px 10px no-repeat; z-index:9;}
+.pr-room section dd .lang li {padding:0 0 0 10px; font-size:12px; color:#2a2a2a; height:23px; line-height:24px; border-bottom:1px solid #e5e5e5; cursor:pointer;}
+.pr-room section dd .lang li:hover, .pr-room section dd .lang li:focus {font-weight:bold; background:rgba(238,238,238,0.6);}
+.pr-room section dd .btn_down {float:left; margin-left:5px;}
+.pr-room section dd .btn_down li {display:none;}
+.pr-room section dd .btn_down .btn {display:block; text-align:center; font-size:12px; color:#fff; background:#333; height:24px; line-height:24px; width:70px;}
+.pr-room section dd .btn_down .date {margin:0 0 0 10px; width:195px;}
+
+/* contact-us */
+.contact-us {position:relative; margin:54px 0 0; padding: 0 0 20px; border-top:1px solid #333; border-bottom:1px solid #333;}
+.contact-us .map {position:absolute; top:15px; right:0;}
+.contact-us .map a {display:inline-block; padding:0 0 0 15px; width:107px; height:28px; line-height:28px; color:#fff; font-size:16px; font-weight:bold; zoom:1; background:#e36824 url(../../img/contact/ico_dot.png) 104px 11px no-repeat; font-family: 'Raleway-Thin', 'NanumBarunGothic'}
+.contact-us .map_box {margin:10px 0 0 0; padding:15px 0 0 0; border-top:1px dotted #ccc;}
+.contact-us .map_box ul {}
+.contact-us .map_box ul li {line-height:30px; color:#666; font-size:14px; padding:0 0 0 10px; background:url(../../img/about/ico_partner.gif) left center no-repeat;}
+.contact-us .google_map {width:840px; height:400px;}
+.contact-us .google_map #GoogleMap_map {width:840px; height:400px;}
