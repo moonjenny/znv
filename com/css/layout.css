@@ -7,29 +7,31 @@
  */
 
 /* body */
-body {position:relative; width:100%; margin:0 auto; background:#282828;}
+body {position:relative; width:100%; margin:0 auto; background:#2a2a2a;}
 body:after {display:block; clear:both; content:'';}
 
 /* header */
 #header {float:left; width:320px; background:#2a2a2a; color:#ccc;}
 #header .logo {display:block; height:20px; text-indent:-9999em; margin:60px 0 0; background: url(../../img/common/logo.png) top center no-repeat;}
 #header .language-group {margin:20px 0 0; padding:7px 0; text-align:center;}
-#header .language-group a {display:inline-block; *display:inline; zoom:1; padding-right:14px; margin-left:10px; font-size:14px; color:#ccc; background: url(../../img/common/dot.png) right center no-repeat; font-family: 'Raleway-Thin', 'NanumBarunGothicBold'}
+#header .language-group a {display:inline-block; *display:inline; zoom:1; padding-right:14px; margin-left:10px; font-size:14px; color:#ccc; background: url(../../img/common/dot.png) right center no-repeat; font-family: 'Raleway-Thin', 'NanumBarunGothicBold';}
 #header .language-group a.selected {font-family: 'Raleway-Bold';}
 #header .language-group a.kr {margin:0;}
-#header .language-group a.jp {padding:0; background:none;}
+#header .language-group a:last-child, #header .language-group a.jp {padding:0; background:none;}
 
 #nav {margin:130px 0 0; height:520px;}
 #nav dl {padding:0; letter-spacing:0.25px; font-family: 'Raleway-Thin', 'NanumBarunGothicLight'}
 #nav dl:hover, #nav dl:focus, #nav dl.on dt {background:#121212;}
 #nav dl:hover, #nav dl:focus, #nav dl.on dd {background:#121212;}
 #nav dl dt {padding-bottom:10px;}
-#nav dl dt a {display:block; padding:14px 0 0px 60px; font-size:22px; color:#ccc; letter-spacing: 0.25px}
-#nav dl dt a:hover, #nav dl dt a:focus {color:#e36824;}
+#nav dl dt a, #nav dl dt > span {display:block; padding:14px 0 0px 60px; font-size:22px; color:#ccc; letter-spacing: 0.25px; cursor:pointer;}
+#nav dl dt a:hover, #nav dl dt a:focus, #nav dl dt > span:hover, #nav dl dt > span:focus {color:#e36824;}
 #nav dl dt a.on {color:#fff;}
 #nav dl dd {display:none; padding:0 0 10px; letter-spacing: 0.25px}
 #nav dl dd a {display:block; padding:6px 0 6px 70px; font-size:16px; color:#ccc; background: url(../../img/common/dot2.png) no-repeat; background-position:60px -20px;}
 #nav dl dd a:hover, #nav dl dd a:focus, #nav dl dd a.on {color:#e36824; background-position: 60px 10px;}
+
+:lang(cn) #nav dl dt > span, :lang(cn) #nav dl dt a span {font-family: 'Raleway-Thin'} 
 
 /* footer */
 #footer {position:absolute; bottom:0; left:0; width:200px; background: #2a2a2a; padding:0 65px 60px 55px; text-align:left;}
@@ -41,4 +43,3 @@ body:after {display:block; clear:both; content:'';}
 #footer .family_site a {display:block; padding: 0 0 0 15px; color:#2a2a2a; font-size:12px; letter-spacing: 0.5px; font-family:'NanumBarunGothicBold'}
 #footer .family_site ul {position:absolute; bottom:26px; left:0; width:100%; background:#bebebe; border-bottom:1px solid #2a2a2a;}
 #footer .family_site ul a:hover {background:#fff;}
-
